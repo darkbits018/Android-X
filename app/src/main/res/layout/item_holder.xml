@@ -14,7 +14,6 @@
         android:textSize="32sp"
         android:textStyle="bold"
         android:textColor="@android:color/holo_orange_light"
-        android:textColorHighlight="@color/colorPrimary"
         android:textAlignment="center"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp" />
