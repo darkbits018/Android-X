@@ -9,20 +9,66 @@
         android:id="@+id/tvCountryName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="India"
-        android:textSize="18sp"
+        android:layout_marginTop="4dp"
+        android:text="@string/india"
+        android:textSize="32sp"
         android:textStyle="bold"
-        />
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textAlignment="center"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
 
     <TextView
-        android:id="@+id/tvTittleToalCases"
+        android:id="@+id/tvTittleTotalCases"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="total case"
-        android:textSize="16sp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/total_case"
+        android:textSize="22sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/tvCountryName"
-        />
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCountryName" />
 
+    <TextView
+        android:id="@+id/tvTittleNewCase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/new_cases"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCountryName" />
+
+    <TextView
+        android:id="@+id/tvTittleNoTotalCases"
+        android:layout_width="77dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/_4000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_purple"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTittleTotalCases" />
+
+    <TextView
+        android:id="@+id/tvTittleNoNewCases"
+        android:layout_width="84dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/_200"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/holo_purple"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTittleNewCase" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

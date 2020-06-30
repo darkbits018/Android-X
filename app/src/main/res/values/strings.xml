@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">COVID tracker</string>
+    <string name="india">India</string>
+    <string name="total_case">total case</string>
+    <string name="new_cases">new cases</string>
+    <string name="_200">200</string>
+    <string name="_4000">4000</string>
+    <string name="total_cases" />
 </resources>
