@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <TextView
@@ -13,7 +14,7 @@
         android:text="@string/india"
         android:textSize="32sp"
         android:textStyle="bold"
-        android:textColor="@android:color/holo_orange_light"
+        android:textColor="@android:color/holo_orange_dark"
         android:textAlignment="center"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="0dp" />
@@ -59,14 +60,14 @@
 
     <TextView
         android:id="@+id/tvTittleNoNewCases"
-        android:layout_width="84dp"
+        android:layout_width="87dp"
         android:layout_height="38dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:text="@string/_200"
+        android:textColor="@android:color/holo_purple"
         android:textSize="22sp"
         android:textStyle="bold"
-        android:textColor="@android:color/holo_purple"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvTittleNewCase" />
 
